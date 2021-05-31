@@ -10,7 +10,7 @@ const Navbar = ({cart}) => {
     return (
         <nav className="navbar fixed-top navbar-expand-lg navbar-light bg-primary">
             <div className="container">
-                <a className = "navbar-brand" href="#"> <img className="logo" src={logo} alt="" /></a>
+                <a className = "navbar-brand" href="/home"> <img className="logo" src={logo} alt="" /></a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <FontAwesomeIcon icon={faBars} style={{color: '#fff'}} />
                 </button>
